@@ -3,13 +3,15 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --blue: #4b5fec;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --font-sans: var(--font-founders-grotesk);
   --font-mono: var(--font-geist-mono);
+  --color-myBlue: var(--blue);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,5 +24,62 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-founders-grotesk), Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-founders-grotesk), sans-serif;
+}
+
+h4,
+h5,
+p {
+  font-family: var(--font-founders-grotesk), sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  letter-spacing: -0.5%;
+  line-height: 110%;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: -0.5%;
+  line-height: 130%;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -0.5%;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 1%;
+  line-height: 130%;
+}
+
+.gutter-x {
+  padding-inline: 4rem;
+}
+
+.gutter-y {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* ✅ Medium screens (tablets) */
+@media (min-width: 640px) and (max-width: 1023px) {
+}
+
+/* ✅ Small screens (phones) */
+@media (max-width: 639px) {
 }
