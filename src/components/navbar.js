@@ -40,13 +40,15 @@ function Navbar() {
 
             {/* black overlay */}
 
-            <div className={`fixed lg:h-fit lg:w-fit md:h-fit m:w-fit top-0 right-0
+            <button onClick={() => { setOpen(false) }} className='hover:cursor-pointer'>
+                <div className={`fixed lg:h-fit lg:w-fit md:h-fit m:w-fit top-0 right-0
                 ${open === true ?
-                    "bg-black/40 h-screen w-screen z-[10]"
-                    :
-                    "bg-black/40 h-0 w-0"
-                }
+                        "bg-black/40 h-screen w-screen z-[10]"
+                        :
+                        "bg-black/40 h-0 w-0"
+                    }
                 `}> </div>
+            </button>
             {/* mobile navbar */}
             <div className={`flex flex-col fixed h-screen justify-between bg-white z-[20] top-[0] right-[0] transition-all duration-[300ms] ease-in-out py-[2rem]
             ${open === true ?
