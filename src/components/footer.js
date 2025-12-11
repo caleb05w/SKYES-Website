@@ -27,9 +27,9 @@ function footer() {
             <div className="flex flex-col lg:max-w-[30%] gap-[1rem] min-h-full ">
                 <h2 className='text-[#F5E9E3]'> Quick Links </h2>
                 <div className="flex flex-row flex-wrap gap-[1rem]">
-                    <a href="/About" className='hover:mouser-pointer hover:underline text-[#A9A9A9]'> <p className='text-nowrap'> About </p></a>
-                    <a href="/GetInvolved" className='hover:mouser-pointer hover:underline text-[#A9A9A9]'> <p className='text-nowrap'> Get Involved </p></a>
-                    <a href="/ProgramOverview" className='hover:mouser-pointer hover:underline text-[#A9A9A9]'> <p className='text-nowrap'> Program Overview </p></a>
+                    <a href="/about" className='hover:mouser-pointer hover:underline text-[#A9A9A9]'> <p className='text-nowrap'> About </p></a>
+                    <a href="/getInvolved" className='hover:mouser-pointer hover:underline text-[#A9A9A9]'> <p className='text-nowrap'> Get Involved </p></a>
+                    <a href="/programOverview" className='hover:mouser-pointer hover:underline text-[#A9A9A9]'> <p className='text-nowrap'> Program Overview </p></a>
                     <a href="/contact" className='hover:mouser-pointer  hover:underline text-[#A9A9A9]'> <p className='text-nowrap'> Contact Us </p></a>
 
                 </div>

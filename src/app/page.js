@@ -91,11 +91,11 @@ export default function Home() {
             width={800}
             height={800}
             alt="Our Team"
-            className='lg:max-w-[40%] md:max-w-[100vw] max-w-[100vw] h-auto object-cover'
+            className='lg:max-w-[40%] md:max-w-[100vw] max-w-full h-auto object-cover rounded-[1rem]'
           />
         </div>
       </div>
-      <div className="flex lg:flex-row flex-col justify-between bg-[#F8F8F8] w-full gutter-x py-[8rem] lg:gap-0 gap-[4rem]">
+      <div className="flex lg:flex-row flex-col justify-between bg-[#F8F8F8] w-full gutter-x lg:py-[8rem] py-[4rem] lg:gap-0 gap-[4rem]">
         <div className="flex items-center flex-col items-start gap-[1.5rem]">
           <TextContainer
             title="Partner with SKYES today!"
@@ -106,7 +106,7 @@ export default function Home() {
         </div>
         <div className="flex flex-row gap-[1rem]">
           <Image
-            src="/assets/shapes/blueBlob.svg"
+            src="/assets/shapes/blueblob.svg"
             width={800}
             height={800}
             alt="Our Team"
@@ -114,7 +114,7 @@ export default function Home() {
           />
 
           <Image
-            src="/assets/shapes/purpleHex.svg"
+            src="/assets/shapes/purplehex.svg"
             width={800}
             height={800}
             alt="Our Team"
