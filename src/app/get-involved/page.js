@@ -9,7 +9,7 @@ function page() {
     {
       header: "Visibility",
       body: "SKYES is well-positioned to amplify sponsor visibility through our internal network and SFU’s broader student body of over 35,000.",
-      icon: "/assets/shapes/purpleFlower.svg",
+      icon: "/assets/shapes/blueFlower.svg",
       img: "/assets/getInvolvedVisibility.png",
     },
     {
@@ -21,7 +21,7 @@ function page() {
     {
       header: "Opportunity",
       body: "We offer an invaluable opportunity to showcase your organization to an audience of volunteers, mentors and advisors.",
-      icon: "/assets/shapes/purpleFlower.svg",
+      icon: "/assets/shapes/limeFlower.svg",
       img: "/assets/getInvolvedOpportunity.png",
     },
   ];
@@ -30,7 +30,7 @@ function page() {
     {
       header: "Enroll your students today",
       body: "Inspires students to turn entrepreneurship into a force for meaningful change by blending global best practices with local impact.",
-      icon: "/assets/shapes/purpleFlower.svg",
+      icon: "/assets/shapes/blueStar.svg",
       title: "Partner Now",
     },
     {
@@ -42,7 +42,7 @@ function page() {
     {
       header: "Support SKYES' mission",
       body: "Sponsor seed funding to help young entrepreneurs drive sustainable business growth and local economies.",
-      icon: "/assets/shapes/purpleFlower.svg",
+      icon: "/assets/shapes/limePlant.svg",
       title: "Sponsor SKYES",
     },
   ];
