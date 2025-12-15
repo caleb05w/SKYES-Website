@@ -31,8 +31,8 @@ function Navbar() {
 
                     <div className="lg:flex md:flex lg:flex-row md:flex-row flex-col gap-[1rem] md:gap-[2rem] lg:gap-[2rem] hidden">
                         <a href="/about" className='hover:underline hover:cursor-pointer'><p className="text-[#5F5F5F] text-nowrap"> About </p></a>
-                        <a href="/about" className='hover:underline hover:cursor-pointer'><p className="text-[#5F5F5F] text-nowrap"> Program Overview </p></a>
-                        <a href="/about" className='hover:underline hover:cursor-pointer'><p className="text-[#5F5F5F] text-nowrap"> Get Involved </p></a>
+                        <a href="/program-overview" className='hover:underline hover:cursor-pointer'><p className="text-[#5F5F5F] text-nowrap"> Program Overview </p></a>
+                        <a href="/get-involved" className='hover:underline hover:cursor-pointer'><p className="text-[#5F5F5F] text-nowrap"> Get Involved </p></a>
                         <a href="/about" className='hover:underline hover:cursor-pointer'><p className="text-[#5F5F5F] text-nowrap"> Contact Us </p></a>
                     </div>
                 </div>

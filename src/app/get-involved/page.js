@@ -3,6 +3,7 @@ import TitleBanner from "../../components/titleBanner";
 import TextContainer from "../../components/textContainer";
 import Image from "next/image";
 import Button from "../../components/button";
+import ImageContainer from "@/components/imageContainer";
 
 function page() {
   const collabList = [
@@ -64,8 +65,24 @@ function page() {
 
         <div className="flex flex-col md:flex-row flex-wrap gap-[2rem]">
           {collabList.map((item, key) => (
+            <ImageContainer
+              header={item.header}
+              body={item.body}
+              icon={item.icon}
+              img={item.img}
+              key={item.header}
+            ></ImageContainer>
+          ))}
+        </div>
+      </section>
+
+      <section className="flex flex-col gutter-x gutter-y gap-[2rem] w-full">
+        <h2>Get involved with us!</h2>
+
+        <div className="flex flex-col gap-[1rem]">
+          {involvedList.map((item, key) => (
             <div
-              className="flex flex-col gap-[2rem] lg:max-w-[31%] p-[2rem]  border-[1.5px] border-gray-200 rounded-[2rem] w-full"
+              className="flex flex-col md:flex-row gap-[2rem] p-[2rem] border-[1.5px] border-gray-200 rounded-[2rem] w-full"
               key={key}
             >
               <div className="h-fill flex flex-col justify-center items-center lg:w-[40%] max-w-[4rem]">
@@ -77,54 +94,19 @@ function page() {
                   className="w-fill h-auto"
                 />
               </div>
-              <div className="flex flex-col gap-[1rem]">
-                <h3> {item.header} </h3>
-                <p> {item.body} </p>
-              </div>
 
-              <Image
-                src={item.img}
-                width={800}
-                height={800}
-                alt="shape"
-                className="w-fill h-auto"
-              />
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <section className="flex flex-col gutter-x gutter-y gap-[2rem] w-full">
-        <h2>Get involved with us!</h2>
-
-        <div className="flex flex-col gap-[1rem]">
-          {involvedList.map((item, key) => (
-            <div
-              className="flex flex-row gap-[2rem] p-[2rem] justify-between border-[1.5px] border-gray-200 rounded-[2rem] w-full"
-              key={key}
-            >
-              <div className="flex flex-row gap-[2rem]">
-                <div className="h-fill flex flex-col justify-center items-center lg:w-[40%] max-w-[4rem]">
-                  <Image
-                    src={item.icon}
-                    width={800}
-                    height={800}
-                    alt="shape"
-                    className="w-fill h-auto"
-                  />
-                </div>
-
+              <div className="flex flex-col min-[74rem]:flex-row justify-between w-full gap-[2rem]">
                 <div className="flex flex-col gap-[1rem] max-w-[37rem]">
                   <h3> {item.header} </h3>
                   <p> {item.body} </p>
                 </div>
-              </div>
 
-              <div className="flex items-center">
-                <Button
-                  title={item.title}
-                  cta="mailto:himalayanskyes@enactussfu.com"
-                ></Button>
+                <div className="flex items-center">
+                  <Button
+                    title={item.title}
+                    cta="mailto:himalayanskyes@enactussfu.com"
+                  ></Button>
+                </div>
               </div>
             </div>
           ))}
