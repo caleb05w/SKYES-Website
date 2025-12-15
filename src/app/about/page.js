@@ -8,10 +8,10 @@ import Image from "next/image"
 function Page() {
     const [currentSlide, setCurrentSlide] = useState(0)
     const slides = [
-        "assets/shapes/purpleFlower.svg",
-        "assets/shapes/blueStar.svg",
-        "assets/shapes/purpleBlob.svg",
-        "assets/shapes/purpleHex.svg"
+        "/assets/slide1.png",
+        "/assets/slide2.jpeg",
+        "/assets/slide3.jpeg",
+        "/assets/slide4.png",
     ]
 
     //auto play slides
@@ -70,13 +70,13 @@ function Page() {
             />
             <div className="flex flex-col gutter-y gutter-x w-full gap-[8rem]">
                 <div className="flex flex-col lg:flex-row gap-[4rem] justify-between">
-                    <div className="flex flex-col gap-[2rem] lg:w-[40%] h-[30rem]">
+                    <div className="flex flex-col gap-[2rem] lg:w-[40%] h-[30rem] overflow-hidden">
                         <Image
                             src={slides[currentSlide]}
                             width={800}
                             height={800}
                             alt="happy teacher"
-                            className='h-full w-auto object-cover rounded-[2rem]'
+                            className='h-full w-auto object-cover rounded-[2rem] overflow-hidden'
                         />
                         <div className="flex w-full flex-row justify-center">
                             <div className="flex flex-row gap-[1rem] bg-[#F4F4F4] w-fit h-fit rounded-full px-[1.5rem] py-[0.5rem]">
