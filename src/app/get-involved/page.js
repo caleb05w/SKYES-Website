@@ -51,7 +51,7 @@ function page() {
   return (
     <div>
       <TitleBanner
-        img="/assets/getInvolvedBanner.png"
+        img="/assets/getInvolvedPageBanner2.png"
         subheader="Get Involved"
         header="Contribute to SKYES' mission by actively mentoring, sponsoring, or joining us!"
         button={false}

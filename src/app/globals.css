@@ -108,4 +108,8 @@ p {
     letter-spacing: -0.5%;
     line-height: 110%;
   }
+
+  .gutter-x {
+    padding-inline: 1.2rem;
+  }
 }

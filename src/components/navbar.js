@@ -33,7 +33,7 @@ function Navbar() {
                         <a href="/about" className='hover:underline hover:cursor-pointer'><p className="text-[#5F5F5F] text-nowrap"> About </p></a>
                         <a href="/program-overview" className='hover:underline hover:cursor-pointer'><p className="text-[#5F5F5F] text-nowrap"> Program Overview </p></a>
                         <a href="/get-involved" className='hover:underline hover:cursor-pointer'><p className="text-[#5F5F5F] text-nowrap"> Get Involved </p></a>
-                        <a href="/about" className='hover:underline hover:cursor-pointer'><p className="text-[#5F5F5F] text-nowrap"> Contact Us </p></a>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=himalayanskyes@enactussfu.com&su=Contact%20Us" target="_blank" rel="norefferer" className="hover:underline hover:cursor-pointer" > <p className="text-[#5F5F5F] text-nowrap">Contact Us</p> </a>
                     </div>
                 </div>
             </div>

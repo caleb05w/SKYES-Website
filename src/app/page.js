@@ -1,3 +1,5 @@
+"use client"
+
 import TitleBanner from "../components/titleBanner"
 import Button from "../components/button"
 import TextContainer from "../components/textContainer"
@@ -41,7 +43,7 @@ export default function Home() {
   return (
     <div className=" justify-center items-center flex-1 flex flex-col gap-2">
       <TitleBanner
-        img="/assets/homePageBanner.png"
+        img="/assets/homePageBanner3.png"
         subheader="Welcome to SKYES"
         header="Where we empower all underprivileged youth globally with Entrepreneurial Education to drive local economic development."
         button={true}
@@ -101,8 +103,7 @@ export default function Home() {
             title="Partner with SKYES today!"
             body="Sponsor seed funding for student ventures to promote local entrepreneurship and circular economies. Partnering with SKYES connects you with schools, organizations, and mentors worldwide—boosting your brand while empowering youth innovation in underserved regions. "
           />
-          <button className='flex flex-row gap-[0.5rem] items-center hover:cursor-pointer'><h5 className='text-myBlue font-medium text-[1.2rem] '> Connect with Us</h5> <FaArrowRight className='text-myBlue' />
-          </button>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=himalayanskyes@enactussfu.com&su=Contact%20Us" target="_blank" rel="norefferer" className='flex flex-row gap-[0.5rem] items-center hover:cursor-pointer'><h5 className='text-myBlue font-medium text-[1.2rem] '> Connect with Us</h5> <FaArrowRight className='text-myBlue' /> </a>
         </div>
         <div className="flex flex-row gap-[1rem]">
           <Image

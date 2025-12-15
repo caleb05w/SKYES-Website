@@ -88,7 +88,7 @@ function page() {
   return (
     <div>
       <TitleBanner
-        img="/assets/overviewPageBanner.png"
+        img="/assets/overViewPageBanner2.png"
         subheader="Program Overview"
         header="A perfect blend of theory and practical experience"
         button={false}
