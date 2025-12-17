@@ -131,8 +131,9 @@ function page() {
                   className="px-[2.5rem] py-[1.5rem] border-[1.5px] border-gray-200 rounded-[24px] w-full lg:w-[48%]"
                   key={item.header}
                 >
-                  <div className="flex flex-row gap-[2.5rem] items-center">
-                    <div className="bg-[#CCDCF9] rounded-[0.6rem]">
+                  {/* <div className="flex flex-row gap-[2.5rem] items-center"> */}
+                  <div className="grid grid-cols-[max-content_2fr] grid-rows-[max-content_1fr] gap-6 md:gap-y-0 items-center">
+                    <div className="bg-[#CCDCF9] rounded-[0.6rem] max-w-max md:row-span-2">
                       {Icon === "MdLightbulb" ? (
                         <MdLightbulb
                           size={50}
@@ -186,10 +187,11 @@ function page() {
                       )}
                     </div>
 
-                    <div className="flex flex-col lg:max-w-[100%] ">
-                      <h3> {item.header} </h3>
-                      <p> {item.body}</p>
-                    </div>
+                    {/* <div className="flex flex-col lg:max-w-[100%] "> */}
+
+                    <h3> {item.header} </h3>
+                    <p className="col-span-2 md:col-span-1"> {item.body}</p>
+                    {/* </div> */}
                   </div>
                 </div>
               );
