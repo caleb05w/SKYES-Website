@@ -204,7 +204,7 @@ function page() {
           body="The program combines theory with practice through 12 weeks of workshops, activities, challenges, and mentorship.  Students will design sustainable solutions to local challenges, launch projects with seed funding through the Elevate Challenge, and grow into confident innovators. The SKYES experience merges theory and practice through:"
         />
 
-        <div className="flex flex-row gap-8">
+        <div className="flex flex-row flex-wrap gap-8">
           {experienceList.map((item, key) => (
             <ImageContainer
               header={item.header}
