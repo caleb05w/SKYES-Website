@@ -41,7 +41,7 @@ export default function Home() {
   ];
 
   return (
-    <div className=" justify-center items-center flex-1 flex flex-col gap-2">
+    <div className=" w-screen justify-center items-center flex-1 flex flex-col gap-2">
       <TitleBanner
         img="/assets/homePageBanner3.png"
         subheader="Welcome to SKYES"

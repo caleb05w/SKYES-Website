@@ -18,7 +18,7 @@ function footer() {
                     height={800}
                     width={800}
                     alt="Skyes Logo"
-                    className='lg:max-w-[30%] h-auto mt-[0.8rem] min-w-[10rem]'
+                    className='lg:max-w-[30%] h-auto mt-[0.8rem] min-w-[8rem] object-cover'
                 />
                 <p className="text-[#A9A9A9]">
                     Enactus SFU and SKYES acknowledges the unceded Traditional Coast Salish Lands including the Tsleil-Waututh (səl̓ilw̓ətaʔɬ), Kwikwetlem (kʷikʷəƛ̓əm), Squamish (Sḵwx̱wú7mesh Úxwumixw) and Musqueam (xʷməθkʷəy̓əm) Nations upon whose lands we work and play on.
@@ -38,7 +38,7 @@ function footer() {
                 <h2 className='text-[#F5E9E3]'> Get in Touch </h2>
                 <div className="flex flex-row flex-wrap gap-[1rem]">
                     <a className="flex flex-row gap-[0.6rem]" href="https://mail.google.com/mail/?view=cm&fs=1&to=himalayanskyes@enactussfu.com&su=Contact%20Us" target="_blank" rel="norefferer">  <FaExternalLinkAlt className='text-[#A9A9A9] h-full items-center' /> <p className='text-[#A9A9A9] hover:cursor-pointer hover:underline'> Email </p></a>
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=himalayanskyes@enactussfu.com&su=Contact%20Us" target="_blank" rel="norefferer" className='flex flex-row gap-[0.6rem]'> <FiMail className=' text-[#A9A9A9] h-full items-center' /> <p className='text-[#A9A9A9] hover:cursor-pointer hover:underline'> Apply </p> </a>
+                    {/* <a href="https://mail.google.com/mail/?view=cm&fs=1&to=himalayanskyes@enactussfu.com&su=Contact%20Us" target="_blank" rel="norefferer" className='flex flex-row gap-[0.6rem]'> <FiMail className=' text-[#A9A9A9] h-full items-center' /> <p className='text-[#A9A9A9] hover:cursor-pointer hover:underline'> Apply </p> </a> */}
                     <a href="https://www.instagram.com/enactussfu/" className="flex flex-row gap-[0.6rem]" target="_blank">  <FaInstagram className='text-[#A9A9A9] h-full items-center' /> <p className='text-[#A9A9A9] hover:cursor-pointer hover:underline'> Instagram </p></a>
                     <a href="https://www.linkedin.com/company/enactussfu/" target="_blank" className="flex flex-row gap-[0.6rem]"> <FaLinkedin className='text-[#A9A9A9] h-full items-center' /> <p className='text-[#A9A9A9] hover:cursor-pointer hover:underline'> LinkedIn </p></a>
                 </div>
