@@ -131,8 +131,7 @@ function page() {
                   className="px-[2.5rem] py-[1.5rem] border-[1.5px] border-gray-200 rounded-[24px] w-full lg:w-[48%]"
                   key={item.header}
                 >
-                  {/* <div className="flex flex-row gap-[2.5rem] items-center"> */}
-                  <div className="grid grid-cols-[max-content_2fr] grid-rows-[max-content_1fr] gap-6 md:gap-y-0 items-center">
+                  <div className="grid grid-cols-[max-content_2fr] grid-rows-[max-content_1fr] gap-6 md:gap-y-0 md:gap-x-10 items-center">
                     <div className="bg-[#CCDCF9] rounded-[0.6rem] max-w-max md:row-span-2">
                       {Icon === "MdLightbulb" ? (
                         <MdLightbulb
@@ -187,11 +186,8 @@ function page() {
                       )}
                     </div>
 
-                    {/* <div className="flex flex-col lg:max-w-[100%] "> */}
-
                     <h3> {item.header} </h3>
                     <p className="col-span-2 md:col-span-1"> {item.body}</p>
-                    {/* </div> */}
                   </div>
                 </div>
               );
@@ -206,15 +202,16 @@ function page() {
           body="The program combines theory with practice through 12 weeks of workshops, activities, challenges, and mentorship.  Students will design sustainable solutions to local challenges, launch projects with seed funding through the Elevate Challenge, and grow into confident innovators. The SKYES experience merges theory and practice through:"
         />
 
-        <div className="flex flex-row flex-wrap gap-8">
+        <div className="grid md:grid-cols-4 gap-8">
           {experienceList.map((item, key) => (
-            <ImageContainer
-              header={item.header}
-              body={item.body}
-              icon={item.icon}
-              img={item.img}
-              key={item.header}
-            ></ImageContainer>
+            <div key={item.header}>
+              <ImageContainer
+                header={item.header}
+                body={item.body}
+                icon={item.icon}
+                img={item.img}
+              ></ImageContainer>
+            </div>
           ))}
         </div>
       </section>

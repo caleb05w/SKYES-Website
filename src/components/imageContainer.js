@@ -3,9 +3,9 @@ import Image from "next/image";
 
 function imageContainer({ header, body, icon, img }) {
   return (
-    <div className="flex flex-col gap-8 lg:max-w-[22.5%] min-[84rem]:max-w-[23%] p-8 border-[1.5px] border-gray-200 rounded-2xl w-full overflow-hidden">
+    <div className="flex flex-col h-full gap-8 p-8 border-[1.5px] border-gray-200 rounded-2xl w-full overflow-hidden justify-between">
       <div className="grid grid-cols-[max-content_2fr] grid-rows-2 gap-6 md:flex md:flex-col md:gap-0">
-        <div className="items-center md:mb-6">
+        <div className="flex items-center md:mb-6">
           <Image
             src={icon}
             width={800}
@@ -15,7 +15,7 @@ function imageContainer({ header, body, icon, img }) {
           />
         </div>
 
-        <div className="flex items-center">
+        <div className="flex items-center md:mb-2">
           <h3> {header} </h3>
         </div>
 

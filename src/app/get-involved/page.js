@@ -63,7 +63,7 @@ function page() {
           body="Together, we can create lasting change and broaden your organization's influence within a global community dedicated to social progress."
         />
 
-        <div className="flex flex-col md:flex-row flex-wrap gap-[2rem]">
+        <div className="grid md:grid-cols-3 gap-8">
           {collabList.map((item, key) => (
             <ImageContainer
               header={item.header}
@@ -85,17 +85,17 @@ function page() {
               className="flex flex-col md:flex-row gap-[2rem] p-[2rem] border-[1.5px] border-gray-200 rounded-[2rem] w-full"
               key={key}
             >
-              <div className="h-fill flex flex-col justify-center items-center lg:w-[40%] max-w-[4rem]">
+              <div className="flex flex-col justify-center items-center ">
                 <Image
                   src={item.icon}
                   width={800}
                   height={800}
                   alt="shape"
-                  className="w-fill h-auto"
+                  className="w-fill h-auto max-w-[4rem]"
                 />
               </div>
 
-              <div className="flex flex-col min-[74rem]:flex-row justify-between w-full gap-[2rem]">
+              <div className="flex flex-col min-[74rem]:flex-row justify-between w-full gap-4">
                 <div className="flex flex-col gap-[1rem] max-w-[37rem]">
                   <h3> {item.header} </h3>
                   <p> {item.body} </p>
