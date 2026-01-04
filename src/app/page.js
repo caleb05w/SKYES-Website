@@ -43,7 +43,7 @@ export default function Home() {
   return (
     <div className=" w-screen justify-center items-center flex-1 flex flex-col gap-2">
       <TitleBanner
-        img="/assets/homePageBanner3.png"
+        img="/assets/homePageBanner4.png"
         subheader="Welcome to SKYES"
         header="Where we empower all underprivileged youth globally with Entrepreneurial Education to drive local economic development."
         button={true}

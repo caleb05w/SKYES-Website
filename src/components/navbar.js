@@ -30,6 +30,7 @@ function Navbar() {
 
 
                     <div className="lg:flex md:flex lg:flex-row md:flex-row flex-col gap-[1rem] md:gap-[2rem] lg:gap-[2rem] hidden">
+                    <a href="/ " className='hover:underline hover:cursor-pointer'><p className="text-[#5F5F5F] text-nowrap"> Home </p></a>
                         <a href="/about" className='hover:underline hover:cursor-pointer'><p className="text-[#5F5F5F] text-nowrap"> About </p></a>
                         <a href="/program-overview" className='hover:underline hover:cursor-pointer'><p className="text-[#5F5F5F] text-nowrap"> Program Overview </p></a>
                         <a href="/get-involved" className='hover:underline hover:cursor-pointer'><p className="text-[#5F5F5F] text-nowrap"> Get Involved </p></a>
@@ -72,10 +73,11 @@ function Navbar() {
 
 
                     <div className="flex lg:flex-row md:flex-row flex-col gap-[1rem] md:gap-[2rem] lg:gap-[2rem]">
+                    <button className='w-fit' onProgress={() => { setOpen(false) }}><a href="/ " className='hover:underline hover:cursor-pointer'><p className="text-[#5F5F5F] text-nowrap"> Home </p></a></button>
                         <button className='w-fit' onProgress={() => { setOpen(false) }}><a href="/about" className='hover:underline hover:cursor-pointer'><p className="text-[#5F5F5F] text-nowrap"> About </p></a></button>
-                        <button className='w-fit' onProgress={() => { setOpen(false) }}><a href="/about" className='hover:underline hover:cursor-pointer'><p className="text-[#5F5F5F] text-nowrap"> Program Overview </p></a></button>
-                        <button className='w-fit' onProgress={() => { setOpen(false) }}><a href="/about" className='hover:underline hover:cursor-pointer'><p className="text-[#5F5F5F] text-nowrap"> Get Involved </p></a></button>
-                        <button className='w-fit' onProgress={() => { setOpen(false) }}><a href="/about" className='hover:underline hover:cursor-pointer'><p className="text-[#5F5F5F] text-nowrap"> Contact Us </p></a></button>
+                        <button className='w-fit' onProgress={() => { setOpen(false) }}><a href="/program-overview" className='hover:underline hover:cursor-pointer'><p className="text-[#5F5F5F] text-nowrap"> Program Overview </p></a></button>
+                        <button className='w-fit' onProgress={() => { setOpen(false) }}><a href="/get-involved" className='hover:underline hover:cursor-pointer'><p className="text-[#5F5F5F] text-nowrap"> Get Involved </p></a></button>
+                        <button className='w-fit' onProgress={() => { setOpen(false) }}><a href="https://mail.google.com/mail/?view=cm&fs=1&to=himalayanskyes@enactussfu.com&su=Contact%20Us" target="_blank" rel="norefferer" className='hover:underline hover:cursor-pointer'><p className="text-[#5F5F5F] text-nowrap"> Contact Us </p></a></button>
                     </div>
                 </div >
 
