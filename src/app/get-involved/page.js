@@ -15,7 +15,7 @@ function page() {
     },
     {
       header: "Support System",
-      body: "By partnering with SKYES, you support our mission to empower under-resourced youth in Nepal through entrepreneurial education.",
+      body: "By partnering with SKYES, you support our mission to empower under-resourced youth through entrepreneurial education.",
       icon: "/assets/shapes/purpleFlower.svg",
       img: "/assets/getInvolvedSupport.png",
     },
@@ -34,12 +34,12 @@ function page() {
       icon: "/assets/shapes/blueStar.svg",
       title: "Partner Now",
     },
-    {
-      header: "Make an impact on our youth",
-      body: "Guide our youth through the difficult journey of being an entrepreneur and making a global impact while supporting their local community",
-      icon: "/assets/shapes/purpleFlower.svg",
-      title: "Become a Member",
-    },
+    // {
+    //   header: "Make an impact on our youth",
+    //   body: "Guide our youth through the difficult journey of being an entrepreneur and making a global impact while supporting their local community",
+    //   icon: "/assets/shapes/purpleFlower.svg",
+    //   title: "Become a Member",
+    // },
     {
       header: "Support SKYES' mission",
       body: "Sponsor seed funding to help young entrepreneurs drive sustainable business growth and local economies.",

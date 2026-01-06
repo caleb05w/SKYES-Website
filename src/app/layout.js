@@ -58,7 +58,7 @@ const neueHaas = localFont({
 });
 
 export const metadata = {
-  title: "Himilayan SKYES",
+  title: "SKYES",
   description: "Where we empower all underprivileged youth globally with Entrepreneurial Education to drive local economic development.",
 };
 

@@ -78,7 +78,7 @@ function page() {
       img: "/assets/overviewCommunity.png",
     },
     {
-      header: "Final Competition",
+      header: "Final Presentation",
       body: "A final Elevate Challenge in the form of a pitch competition",
       icon: "/assets/shapes/blueFish.svg",
       img: "/assets/overviewCompetition.png",

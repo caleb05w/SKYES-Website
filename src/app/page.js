@@ -19,7 +19,7 @@ export default function Home() {
       image: "/assets/shapes/blueblob.svg",
     },
     {
-      header: "71%",
+      header: "93%",
       subheader: "Average on entrepreneurship literacy self-assessments administered by SKYES",
       image: "/assets/shapes/purplehex.svg",
     },

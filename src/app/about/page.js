@@ -65,7 +65,7 @@ function Page() {
             <TitleBanner
                 img="/assets/aboutPageBanner.png"
                 subheader="About SKYES"
-                header="SKYES is about sharing knowledge to yield entrepreneurial skills"
+                header="SKYES is about Sharing Knowledge to Yield Entrepreneurial Skills"
                 button={false}
             />
             <div className="flex flex-col gutter-y gutter-x w-full gap-[8rem]">
